@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body,html{
+    background-color: var(--background);
+}
+
+
+nav {
+    background-color: var(--basecolor);
+
+}
+
+.logo{
+   width: 100px;
+   margin-top: 45px;
+
+}
+
+footer{
+    background-color: var(--basecolor);
+}
