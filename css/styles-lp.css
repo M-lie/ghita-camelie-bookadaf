@@ -1,0 +1,61 @@
+
+nav {
+    background-color: var(--basecolor);
+}
+
+.cadre{
+    width: 100%;
+    aspect-ratio: 5/9;
+    
+}
+
+.hero{
+
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.card{
+    border: none;
+    background-color:var(--hovercard);
+    
+}
+
+.card-body h3{
+ color: var(--text);
+}
+
+.card-body p{
+    color: var(--text);
+}
+
+
+#max{
+    max-height: 575px;
+}
+.premierlink {
+    position: absolute;
+    top: 700px;
+}
+
+
+.deuxiemelink {
+    position: absolute;
+    top: 900px;
+}
+
+.troisiemelink {
+    position: absolute;
+    top: 1000px;
+}
+
+.nav-link{
+   text-align: center;
+    color: var(--text);
+    display:flex;
+    justify-content: center;
+
+}
