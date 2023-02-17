@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+ 
+}
+
+body,
+html {
+    font-family: 'Gill Sans Mt', sans-serif;
+}
+
+:root {
+    --background: #ffffff; 
+    --divison: #fbf6f1;
+    --text: #ebd9c1;
+    --hovercard: #2f8d8e;
+    --hover:#1d5c5d;
+    --basecolor: #1a3836;
+    --typo: 'Gill Sans Mt', sans-serif;
+    
+}
+
+/*--------------------------------------------------------- 
+# Styles Généraux 
+---------------------------------------------------------*/ 
+
+header {
+    
+}
+
+h1 {
+    
+}
+
+footer {
+    
+}
+  
+/*---------------------------------------------------------- 
+# Section Hero  
+----------------------------------------------------------*/ 
+
+section.hero {
+    
+}

@@ -1,0 +1,135 @@
+
+nav {
+  background-color: var(--basecolor);
+}
+
+.hero {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  height: 0;
+  transform: translate(-50%);
+}
+
+.card {
+  border: none;
+  background-color: var(--hovercard);
+  width: 900px;
+  box-shadow: 10px 10px 10px var(--basecolor);
+}
+
+.card-body h3 {
+  position: absolute;
+  top: 200px;
+  left: 60px;
+  font-size: 60px;
+  color: var(--text);
+}
+
+.card-body p {
+  color: var(--text);
+  position: absolute;
+  top: 290px;
+  left: 60px;
+  font-size: 20px;
+}
+
+#max {
+  max-height: 575px;
+}
+
+.premierlink {
+  position: absolute;
+  bottom: 120px;
+}
+
+.deuxiemelink {
+  position: absolute;
+  bottom: 110px;
+}
+
+.troisiemelink {
+  position: absolute;
+  bottom: 100px;
+}
+
+.boutontele {
+  position: absolute;
+  top: 700px;
+}
+
+.nav-link {
+  color: var(--text);
+  font-size: 1.3em;
+}
+
+.nav-item #no1{
+  position: absolute;
+  top: 40px;
+  left: 300px;
+}
+
+.nav-item #no2{
+  position: absolute;
+  top: 40px;
+  left: 450px;
+}
+
+.nav-item #no3{
+  position: absolute;
+  top: 40px;
+  left: 635px;
+}
+
+.nav-pills {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.nav-link:hover {
+  background-color: var(--hover);
+  color: var(--text);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--basecolor);
+}
+
+footer p {
+  color: var(--text);
+}
+
+.bouton {
+  background-color: var(--basecolor);
+  width: 350px;
+  height: 80px;
+  position: absolute;
+  top: 410px;
+  left: 60px;
+  border: none;
+  border-radius: 35px;
+  color: var(--text);
+  font-size: 35px;
+}
+
+.bouton:hover {
+  background-color: var(--hover);
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+iframe {
+  aspect-ratio: 5/9;
+  width: 50%;
+  position: relative;
+  margin-top: 7px;
+  margin-left: 250px;
+  border: 3px solid var(--text);
+  border-radius: 15px;
+}
