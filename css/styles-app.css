@@ -33,13 +33,11 @@ nav {
 footer {
     position: absolute;
     bottom: 0;
-    background-color: #404363;
-    padding: 2rem;
-    margin-top: 2rem;
+    background-color: var(--basecolor);
 }
 
 footer p {
-    color: var(--background);
+    color: var(--text);
 }
 
 .list {
