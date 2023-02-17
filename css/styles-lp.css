@@ -18,7 +18,7 @@ nav {
 }
 
 h1 {
-  margin-top: 5px;
+  margin-top: 10px;
   color: var(--text);
   font-size: 50px;
 }
@@ -50,6 +50,7 @@ h2 {
 .nav-link {
   color: var(--text);
   font-size: 1.3em;
+  margin-bottom: 10px;
 }
 
 .nav-item #no1{
