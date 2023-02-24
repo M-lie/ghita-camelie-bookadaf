@@ -8,6 +8,11 @@ nav {
 
 .navbar-toggler {
     border: none;
+    height: 40px;
+}
+
+.bi-list {
+    color: var(--text);
 }
 
 .logo {
@@ -63,6 +68,7 @@ footer p {
 .filtersList {
     display: flex;
     list-style-type: none;
+    padding: 0;
 }
 
 .btn-primary {
@@ -91,19 +97,16 @@ footer p {
 }
 
 #vedette .card {
-    width: 200px;
+    max-width: 200px;
     text-decoration: none;
     color: var(--basecolor);
     margin-right: 10px;
+    line-height: 1em;
 }
 
 #vedette .card:hover {
     background-color: var(--hovercard);
     color: var(--text);
-}
-
-#vedette .card-body {
-    height: 155px;
 }
 
 #vedette .card-img-top {
@@ -117,6 +120,10 @@ footer p {
     width: 25px;
     height: 25px;
     border-radius: 50%;
+}
+
+#vedette .date-event {
+    font-size: 12px;
 }
 
 #autre .card {
@@ -141,3 +148,4 @@ footer p {
     height: 25px;
     border-radius: 50%;
 }
+
