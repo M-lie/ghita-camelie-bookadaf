@@ -15,24 +15,23 @@
 
 <body>
     <header>
-    </header>
-
-    <main>
-        <nav class="navbar navbar-dark fixed-top">
+        <nav class="index-navbar navbar-dark fixed-top">
             <div class="container-fluid">
 
                 <!-- Hamburger button -->
-                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
-                    <i class="bi bi-list"></i>
-                </button>
-
-                <a class="navbar-brand" href="index.html">
-                    <div class="logo">
-                        <img src="../assets/logo_athens.png" alt="Bootstrap" width="50" height="50" >BOOKADAF
-                    </div>
-                </a>
-
-                <img src="../assets/photo_profil.png" width="30" height="30" class="pdp">
+                <div class="navbar-position d-flex justify-content-between align-items-center">
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+                        <i class="bi bi-list"></i>
+                    </button>
+                    
+                    <a class="navbar-brand" href="index.html">
+                        <div class="logo d-flex align-items-center">
+                            <img src="../assets/logo_athens.png" alt="Bootstrap" width="30" height="30" >BOOKADAF
+                        </div>
+                    </a>
+                    
+                    <img src="../assets/photo_profil.png" width="30" height="30" class="pdp">
+                </div>
 
                     <!-- Navigation -->
                     <div id="mainNav" class="collapse navbar-collapse">
@@ -57,15 +56,18 @@
             </div>
             
         </nav>
+    </header>
+
+    <main>
         <div class="container-fluid">
             <!-- Recherche -->
             <section>
                 <form>
-                    <div class="input-group">
+                    <div class="input-group pt-5 pb-2">
                         <span class="input-group-append">
                             <div class="input-group-text bg-transparent"><i class="bi bi-search"></i></div>
                         </span>
-                        <input class="form-control py-2 border-right-0 border" type="text" placeholder="Rechercher une oeuvre, un artiste...">
+                        <input class="form-control border-right-0" type="text" placeholder="Rechercher une oeuvre, un artiste...">
                     </div>  
                 </form>
             </section>
@@ -100,17 +102,17 @@
         <div class="container-fluid">
             <div class="row  d-flex justify-content-start gx-0">
                 <div class="col-4">
-                    <a class="card p-2 pb-0">
-                        <img src="../assets/artworks/icarus_animation.jpg" class="card-img-top"> 
+                    <a class="card p-2 pb-0" href="artwork.html">
+                        <img src="../assets/artworks/touchable_installation.jpg" class="card-img-top"> 
                         <div class="card-body pt-1 px-0">
-                            <h3 class="card-title">Icarus</h3>
-                            Par l'artiste Choi Kim <br>
+                            <h3 class="card-title">Touchable</h3>
+                            Par l'artiste Dimitris Mairopoulos <br>
                             <div class="date-event d-flex justify-content-between pt-2">
                                 <i class="bi bi-calendar-week"> 25 août 2024</i>
                                 <i class="bi bi-clock"> 20h</i>
                             </div>
                             <div class="d-flex justify-content-between pt-3">
-                                <img src="../assets/artworks/icarus_animation.jpg" class="artist-profile"> 
+                                <img src="../assets/artworks/touchable_installation.jpg" class="artist-profile"> 
                                 <p class="info pt-1">
                                 Plus d'info <i class="bi bi-chevron-right"></i></p>
                             </div>  
@@ -198,16 +200,16 @@
                         </div>
                         <div class="col-12">
                             <a class="card p-2 pb-0">
-                                <img src="../assets/artworks/touchable_installation.jpg" class="card-img-top"> 
+                                <img src="../assets/artworks/icarus_animation.jpg" class="card-img-top"> 
                                 <div class="card-body pt-1 px-0">
-                                    <h3 class="card-title">Touchable</h3>
-                                    Par l'artiste Dimitris Mairopoulos <br>
+                                    <h3 class="card-title">Icarus</h3>
+                                    Par l'artiste Choi Kim <br>
                                     <div class="date-event d-flex justify-content-between pt-2">
                                         <i class="bi bi-calendar-week"> 26 mars 2026</i>
                                         <i class="bi bi-clock"> 18h</i>
                                     </div>
                                     <div class="d-flex justify-content-between pt-3">
-                                        <img src="../assets/artworks/touchable_installation.jpg" class="artist-profile"> 
+                                        <img src="../assets/artworks/icarus_animation.jpg" class="artist-profile"> 
                                         <p class="info pt-1">
                                         Plus d'info <i class="bi bi-chevron-right"></i></p>
                                     </div>  

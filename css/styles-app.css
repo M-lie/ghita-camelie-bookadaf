@@ -2,7 +2,7 @@ body {
     overflow-x: hidden;
 }
 
-nav {
+.index-navbar {
     background-color: var(--basecolor);
 }
 
@@ -16,10 +16,6 @@ nav {
 }
 
 .logo {
-    position: absolute;
-    top: 4px;
-    left: 50%;
-    transform: translate(-50%);
     color: var(--text);
 }
 
@@ -31,12 +27,6 @@ nav {
 .input-group-text {
     height: 42px;
     border-radius: 6px 0 0 6px;
-}
-
-.input-group {
-    position: absolute;
-    top: 65px;
-    width: 94%;
 }
 
 footer {
@@ -51,7 +41,6 @@ footer p {
     display: flex;
     align-items: flex-start;
     overflow-x: scroll;
-    margin-top: 118px;
 
     @media (min-width: 500px) { 
         overflow: hidden;
@@ -62,7 +51,7 @@ footer p {
 }
 
 .list::-webkit-scrollbar {
-    display:none;
+    display: none;
 }
 
 .filtersList {
@@ -149,3 +138,61 @@ footer p {
     border-radius: 50%;
 }
 
+.artwork-navbar {
+    margin-top: 10px;
+}
+
+.artwork-bouton {
+    background-color: var(--basecolor);
+    border-radius: 50%;
+    width: 40px;
+}
+
+.bi-chevron-left {
+    color: var(--text);
+}
+
+.artwork-like {
+    background-color: var(--basecolor);
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    width: 40px;
+    border: none;
+}
+
+.bi-heart-fill {
+    color: var(--text);
+}
+
+.artwork-art {
+    height: 45vh;
+}
+
+.artwork-description {
+    position: relative;
+    padding: 30px;
+    margin-top: -20px;
+    height: 100vh;
+    border-radius: 20px 20px 0 0;
+    background-color: var(--background);
+}
+
+.artwork-division-title {
+    background-color: var(--basecolor);
+    color: var(--text);
+    border-radius: 2px;
+    font-size: 1.5em;
+}
+
+.artwork-division-title p {
+    margin-left: 5px;
+}
+
+#artwork .card-img-top {
+    border-radius: 5px 5px 0 0;
+    margin-top: -5px;
+}
+
+.accordion {
+    text-decoration: none;
+}
