@@ -60,17 +60,14 @@ footer p {
     padding: 0;
 }
 
-.btn-primary {
+.btn-outline-primary {
     margin-right: 5px;
-    display: inline;
-    background-color: var(--basecolor);
-    color: var(--text);
-    border: none;
 }
 
-.btn-primary:hover {
+.btn-outline-primary:hover {
     color: var(--text);
     background-color: var(--hover);
+    border-color: var(--hover);
 }
 
 #no3 {
@@ -172,7 +169,6 @@ footer p {
     position: relative;
     padding: 30px;
     margin-top: -20px;
-    height: 100vh;
     border-radius: 20px 20px 0 0;
     background-color: var(--background);
 }
@@ -196,3 +192,13 @@ footer p {
 .accordion {
     text-decoration: none;
 }
+
+.btn-primary {
+    color: var(--text);
+}
+
+.btn-primary:hover {
+    color: var(--text);
+    background-color: var(--basecolor);
+}
+
