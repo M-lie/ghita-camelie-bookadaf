@@ -1,200 +1,194 @@
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .index-navbar {
-    background-color: var(--basecolor);
+  background-color: var(--basecolor);
 }
 
 .navbar-toggler {
-    border: none;
-    height: 40px;
+  border: none;
+  height: 40px;
 }
 
 .bi-list {
-    color: var(--text);
+  color: var(--text);
 }
 
 .logo {
-    color: var(--text);
+  color: var(--text);
 }
 
 .pdp {
-    border: solid 2px var(--text);
-    border-radius: 50%;
+  border: solid 2px var(--text);
+  border-radius: 50%;
 }
 
 .input-group-text {
-    height: 42px;
-    border-radius: 6px 0 0 6px;
+  height: 42px;
+  border-radius: 6px 0 0 6px;
 }
 
 footer {
-    background-color: var(--basecolor);
+  background-color: var(--basecolor);
 }
 
 footer p {
-    color: var(--text);
+  color: var(--text);
 }
 
 .list {
-    display: flex;
-    align-items: flex-start;
-    overflow-x: scroll;
+  display: flex;
+  align-items: flex-start;
+  overflow-x: scroll;
 
-    @media (min-width: 500px) { 
-        overflow: hidden;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 0;
-    }
+  @media (min-width: 500px) {
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+  }
 }
 
 .list::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .filtersList {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
 }
 
-.btn-primary {
-    margin-right: 5px;
-    display: inline;
-    background-color: var(--basecolor);
-    color: var(--text);
-    border: none;
+.btn-outline-primary {
+  margin-right: 5px;
 }
 
-.btn-primary:hover {
-    color: var(--text);
-    background-color: var(--hover);
+.btn-outline-primary:hover {
+  color: var(--text);
+  background-color: var(--hover);
+  border-color: var(--hover);
 }
 
 #no3 {
-    width: 125px;
+  width: 125px;
 }
 
 #no6 {
-    width: 104px;
+  width: 104px;
 }
 
 #vedette {
-    width: 140%;
+  width: 140%;
 }
 
 #vedette .card {
-    max-width: 200px;
-    text-decoration: none;
-    color: var(--basecolor);
-    margin-right: 10px;
-    line-height: 1em;
+  max-width: 200px;
+  text-decoration: none;
+  color: var(--basecolor);
+  margin-right: 10px;
+  line-height: 1em;
 }
 
 #vedette .card:hover {
-    background-color: var(--hovercard);
-    color: var(--text);
+  background-color: var(--hovercard);
+  color: var(--text);
 }
 
 #vedette .card-img-top {
-    height: 20vh;
-    border-radius: 12px;
-    object-fit: cover;
-    object-position: 0 0;
+  height: 20vh;
+  border-radius: 12px;
+  object-fit: cover;
+  object-position: 0 0;
 }
 
 #vedette .artist-profile {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
 }
 
 #vedette .date-event {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 #autre .card {
-    margin-bottom: 10px;
-    text-decoration: none;
-    color: var(--basecolor);
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: var(--basecolor);
 }
 
 #autre .card-body {
-    height: 155px;
+  height: 155px;
 }
 
 #autre .card-img-top {
-    height: 20vh;
-    border-radius: 12px;
-    object-fit: cover;
-    object-position: 0 0;
+  height: 20vh;
+  border-radius: 12px;
+  object-fit: cover;
+  object-position: 0 0;
 }
 
 #autre .artist-profile {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
 }
 
 .artwork-navbar {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .artwork-bouton {
-    background-color: var(--basecolor);
-    border-radius: 50%;
-    width: 40px;
+  background-color: var(--basecolor);
+  border-radius: 50%;
+  width: 40px;
 }
 
 .bi-chevron-left {
-    color: var(--text);
+  color: var(--text);
 }
 
 .artwork-like {
-    background-color: var(--basecolor);
-    border-radius: 50%;
-    aspect-ratio: 1/1;
-    width: 40px;
-    border: none;
+  background-color: var(--basecolor);
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  width: 40px;
+  border: none;
 }
 
 .bi-heart-fill {
-    color: var(--text);
+  color: var(--text);
 }
 
 .artwork-art {
-    height: 45vh;
+  height: 45vh;
 }
 
 .artwork-description {
-    position: relative;
-    padding: 30px;
-    margin-top: -20px;
-    height: 100vh;
-    border-radius: 20px 20px 0 0;
-    background-color: var(--background);
+  position: relative;
+  padding: 30px;
+  margin-top: -20px;
+  border-radius: 20px 20px 0 0;
+  background-color: var(--background);
 }
 
 .artwork-division-title {
-    background-color: var(--basecolor);
-    color: var(--text);
-    border-radius: 2px;
-    font-size: 1.5em;
+  background-color: var(--basecolor);
+  color: var(--text);
+  border-radius: 2px;
+  font-size: 1.5em;
 }
 
 .artwork-division-title p {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 #artwork .card-img-top {
-    border-radius: 5px 5px 0 0;
-    margin-top: -5px;
+  border-radius: 5px 5px 0 0;
+  margin-top: -5px;
 }
 
 .accordion {
-    text-decoration: none;
+  text-decoration: none;
 }
-
-
