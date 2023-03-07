@@ -121,22 +121,26 @@ iframe {
 }
 
 #section-testimonials img {
-  height: 35vh;
+  height: 20vh;
   object-fit: cover;
   object-position: 0 -150px;
+  border-radius: 5px 5px 0 0;
 }
 
 #section-testimonials .card {
   background-color: var(--division);
-  box-shadow: 10px 10px 10px var(--basecolor);
-  border: none;
-  border-radius: 5px 5px 5px;
+  border-color: var(--hovercard);
+  color: var(--basecolor);
 }
 
 #section-testimonials .card:hover {
   background-color: var(--hovercard);
   border: none;
+  color: var(--text);
 }
 
-.n06 {
+.quote {
+  position: absolute;
+  bottom: 110px;
+  right: 0;
 }
