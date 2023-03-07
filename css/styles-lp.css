@@ -6,7 +6,7 @@ nav {
   margin-top: 160px;
 }
 
-.card {
+.hero .card {
   border: none;
   background-color: var(--hovercard);
   box-shadow: 10px 10px 10px var(--basecolor);
@@ -91,6 +91,7 @@ iframe {
   height: 350px;
   margin: 10px;
   padding-top: 25px;
+  border-color: var(--hovercard);
 }
 
 #section-features {
@@ -107,4 +108,35 @@ iframe {
 
 .n01 {
   margin-left: -45px;
+}
+
+#section-testimonials p {
+  color: var(--basecolor);
+  text-align: center;
+}
+
+#section-testimonials h2 {
+  color: var(--basecolor);
+  text-align: center;
+}
+
+#section-testimonials img {
+  height: 35vh;
+  object-fit: cover;
+  object-position: 0 -150px;
+}
+
+#section-testimonials .card {
+  background-color: var(--division);
+  box-shadow: 10px 10px 10px var(--basecolor);
+  border: none;
+  border-radius: 5px 5px 5px;
+}
+
+#section-testimonials .card:hover {
+  background-color: var(--hovercard);
+  border: none;
+}
+
+.n06 {
 }
