@@ -164,20 +164,27 @@ iframe {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%231a3836'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
-#section-info button {
-  background-color: var(--basecolor);
-  color: var(--text);
+#section-info {
+  background-image: url(../assets/infolettre.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#section-info button:hover {
-  background-color: var(--hovercard);
-  border: none;
-}
-
-#section-info h1 {
+#section-info h2 {
   color: var(--basecolor);
 }
 
-#section-info.btn-close {
-  background-color: var(--text);
+.carte-infolettre {
+  background-color: var(--background);
+  width: 48vw;
+  opacity: 70%;
+}
+
+.bi-envelope-at {
+  margin-top: -80px;
+  margin-left: 8px;
+}
+
+.modal-title {
+  color: var(--basecolor);
 }
