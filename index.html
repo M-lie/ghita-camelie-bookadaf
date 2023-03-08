@@ -26,18 +26,24 @@
           <a class="navbar-brand" href="#" id="mainNav" class="collapse navbar-collapse" id="scrollspyHeading1">
             <img src="assets/logo.png" width="250px" height="100px" />
           </a>
-          <ul class="nav nav-pills">
-            <li class="nav-item">
-              <a class="nav-link" id="no1" href="#scrollspyHeading1">Télécharger</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="no2"  href="#scrollspyHeading2">Fonctionnalités</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="no3" href="#scrollspyHeading3">Voir plus</a>
-            </li>
-          </ul>
-        </div>
+          <div id="mainNav" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <ul class="nav nav-pills">
+                  <li class="nav-item">
+                    <a class="nav-link me-3" id="no1" href="#scrollspyHeading1">Télécharger</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-3" id="no2"  href="#scrollspyHeading2">Fonctionnalités</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="no3" href="#scrollspyHeading3">Voir plus</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>    
       </nav>
 
       <section class="hero">
@@ -52,10 +58,9 @@
                       facilitera l'achat de vos billets en ligne. <br> Téléchargez-la
                       dès maintenant.
                   </h2>
-
-                  
+                  <div class="d-flex justify-content-center py-2">
                     <button class="bouton"> Télécharger </button>
-                  
+                  </div>
                 </div>
                 <div class="col-12 col-lg-6 d-flex justify-content-center">
                   <iframe src="app/index.html" frameborder="0"></iframe>

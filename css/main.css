@@ -7,6 +7,10 @@ html {
   font-family: "Gill Sans Mt", sans-serif;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
   --background: #ffffff;
   --division: #fbf6f1;
