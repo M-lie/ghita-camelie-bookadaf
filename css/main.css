@@ -4,7 +4,10 @@
 
 body,
 html {
-  font-family: "Gill Sans Mt", sans-serif;
+  @font-face {
+    src: url("../assets/fonts/Gill Sans Mt.ttf") format("truetype");
+    font-family: "Gill Sans Mt", sans-serif;
+  }
 }
 
 body::-webkit-scrollbar {
