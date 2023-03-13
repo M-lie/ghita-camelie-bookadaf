@@ -225,13 +225,18 @@ footer p {
   border-color: var(--hover);
 }
 
-.swiper-filters {
+.swiper {
   width: 100vw;
 }
 
 .swiper-slide {
   width: auto;
 }
+
+.swiper-featured-artworks {
+  margin-left: 0;
+}
+
 
 
 
