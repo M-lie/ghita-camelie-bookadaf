@@ -202,13 +202,22 @@ iframe {
 
 .swiper-slide img {
   border-radius: 25px;
-  width: auto;
 }
 
 .swiper-button-prev {
   color: var(--basecolor);
+  margin-left: -80px;
 }
 
 .swiper-button-next {
   color: var(--basecolor);
+  margin-right: -850px;
+}
+
+.swiper-wrapper {
+  width: 100%;
+}
+
+.swiper-screenshots {
+  max-width: 500px;
 }
