@@ -108,6 +108,10 @@ iframe {
   margin-left: -45px;
 }
 
+#section-testimonials {
+  background-color: var(--division);
+}
+
 #section-testimonials p {
   color: var(--basecolor);
   text-align: center;
@@ -125,7 +129,7 @@ iframe {
 }
 
 #section-testimonials .card {
-  background-color: var(--division);
+  background-color: var(--background);
   border-color: var(--hovercard);
   color: var(--basecolor);
   height: 45vh;
@@ -144,7 +148,7 @@ iframe {
 }
 
 #section-faq {
-  background-color: var(--division);
+  background-color: var(--background);
 }
 
 #section-faq h2 {
@@ -175,8 +179,7 @@ iframe {
 }
 
 .carte-infolettre {
-  background-color: rgba(250, 250, 250, 70%)
-  
+  background-color: rgba(250, 250, 250, 70%);
 }
 
 .bi-envelope-at {
@@ -188,3 +191,26 @@ iframe {
   color: var(--basecolor);
 }
 
+#section-view-more {
+  background-color: var(--background);
+}
+
+#section-view-more h2 {
+  color: var(--basecolor);
+  text-align: center;
+}
+
+.swiper-slide img {
+  border-radius: 25px;
+  width: auto;
+  flex-wrap: wrap;
+}
+
+.swiper {
+  width: 100vw;
+}
+
+.swipper-wrapper {
+  width: 100%;
+  height: 100%;
+}
