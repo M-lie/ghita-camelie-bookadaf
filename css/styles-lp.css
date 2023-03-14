@@ -203,7 +203,6 @@ iframe {
 .swiper-slide img {
   border-radius: 25px;
   width: auto;
-  flex-wrap: wrap;
 }
 
 .swiper {

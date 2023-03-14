@@ -25,22 +25,19 @@ swiper = new Swiper(".swiper-featured-artworks", {
 const swiperlp = new Swiper(".swiper-screenshots", {
   direction: "horizontal",
   loop: true,
-  autoplay: Infinity,
 
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  // Default parameters
+  slidesPerView: 1,
+
+  // Breakpoints:
   breakpoints: {
     // when window width is >= 1200px
     1200: {
       slidesPerView: 3,
-      spaceBetween: 20,
     },
   },
-});
-
-swiper = new Swiper(".swiper-featured-artworks", {
-  direction: "horizontal",
-  loop: true,
 });

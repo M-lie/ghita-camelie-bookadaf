@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="none" />
     <link rel="stylesheet" href="css/custom_bootstrap.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -201,13 +202,18 @@
     <section id="section-view-more">
 
       <div class="container py-5">
+        <div class="container">
         <div id=" #scrollspyHeading3">
 
           <h2>Prévisualiser l'interface de l'appli </h2>
-        <div class="swiper swiper-featured-artworks">
+   
 
         <div class="swiper-screenshots">
-          <div class="swiper-wrapper">
+          <div class="swiper-wrapper d-flex justify-content-center">
+
+            
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
 
             <div class="swiper-slide">
               <img src="assets/app_01.jpg">
@@ -229,8 +235,6 @@
               <img src="assets/app_05.jpg">
             </div>
 
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
       
           </div>
         </div>
@@ -488,6 +492,7 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     ></script>
 
     <script src="js/script.js"></script>
