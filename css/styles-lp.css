@@ -205,11 +205,10 @@ iframe {
   width: auto;
 }
 
-.swiper {
-  width: 100vw;
+.swiper-button-prev {
+  color: var(--basecolor);
 }
 
-.swipper-wrapper {
-  width: 100%;
-  height: 100%;
+.swiper-button-next {
+  color: var(--basecolor);
 }
