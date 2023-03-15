@@ -19,13 +19,15 @@
 
     <main>
       <nav class="navbar navbar-dark fixed-top navbar-expand-lg">
-        <div class="container d-flex justify-content-start align-items-center">
+        <div class="container">
           <a class="navbar-brand" href="#" id="scrollspyHeading1">
             <img src="assets/logo.png" width="250px" height="100px" />
           </a>
-
+          
           <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
-            <i class="bi bi-list" width="250px" height = "100px"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--text)" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
           </button>
           
           <div id="mainNav" class="collapse navbar-collapse">
@@ -37,7 +39,13 @@
                 <a class="nav-link me-3" id="no2"  href="#scrollspyHeading3">Fonctionnalités</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="no3" href="#scrollspyHeading4">Voir plus</a>
+                <a class="nav-link me-3" id="no3" href="#scrollspyHeading4">Voir plus</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" id="no4" href="#scrollspyHeading5">Témoignages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" id="no5" href="#scrollspyHeading6">FAQ</a>
               </li>
             </ul>
           </div>  
@@ -59,6 +67,18 @@
       <div class="troisiemelink">
         <p class="voirplus">
           <a class="nav-link" href="#scrollspyHeading4"></a>
+        </p>
+      </div>
+
+      <div class="quatriemelink">
+        <p class="temoignage">
+          <a class="nav-link" href="#scrollspyHeading5"></a>
+        </p>
+      </div>
+
+      <div class="cinquiemelink">
+        <p class="faq">
+          <a class="nav-link" href="#scrollspyHeading6"></a>
         </p>
       </div>
 
@@ -217,7 +237,7 @@
       <section id="section-testimonials">
         <div class="container py-5">
           <div class="row">
-            <h2> Témoignages </h2>
+            <h2 id="scrollspyHeading5"> Témoignages </h2>
             <p> Décrouvrez l'avis de nos clients plus que satisfaits de notre application. </p>
           </div>
 
@@ -313,7 +333,7 @@
 
       <section id="section-faq" d-flex justify-content-center>
         <div class="container py-5">
-          <h2 > Foire aux questions </h2>
+          <h2 id="scrollspyHeading6"> Foire aux questions </h2>
 
           <div class="accordion mt-4" id="accordion">
 

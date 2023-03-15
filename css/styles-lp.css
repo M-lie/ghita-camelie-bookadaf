@@ -2,6 +2,16 @@ nav {
   background-color: var(--basecolor);
 }
 
+.navbar-toggler {
+  border: none;
+  margin-right: 0;
+}
+
+.bi-list {
+  height: 50px;
+  width: 50px;
+}
+
 .hero .card {
   border: none;
   background-color: var(--hovercard);
@@ -237,12 +247,4 @@ iframe {
   background-color: var(--background);
 }
 
-.navbar-toggler {
-  border: none;
-}
 
-.bi-list {
-  color: var(--text);
-  height: 120px;
-  width: 120px;
-}
