@@ -237,8 +237,12 @@ iframe {
   background-color: var(--background);
 }
 
+.navbar-toggler {
+  border: none;
+}
 
-
-
-
-
+.bi-list {
+  color: var(--text);
+  height: 120px;
+  width: 120px;
+}
