@@ -200,24 +200,49 @@ iframe {
   text-align: center;
 }
 
+.swiper {
+  width: 100vw;
+}
+
+.swiper-slide {
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
 .swiper-slide img {
+  border: 2px solid var(--basecolor);
   border-radius: 25px;
+}
+
+.swiper-slide-prev {
+  opacity: 50%;
+}
+
+.swiper-slide-next {
+  opacity: 50%;
 }
 
 .swiper-button-prev {
   color: var(--basecolor);
-  margin-left: -80px;
+  width: 70px;
+  height: 70px;
+  border: 1px solid var(--basecolor);
+  border-radius: 50%;
+  background-color: var(--background);
 }
 
 .swiper-button-next {
   color: var(--basecolor);
-  margin-right: -850px;
+  width: 70px;
+  height: 70px;
+  border: 1px solid var(--basecolor);
+  border-radius: 50%;
+  background-color: var(--background);
 }
 
-.swiper-wrapper {
-  width: 100%;
-}
 
-.swiper-screenshots {
-  max-width: 500px;
-}
+
+
+
+
