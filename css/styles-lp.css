@@ -2,10 +2,6 @@ nav {
   background-color: var(--basecolor);
 }
 
-.hero {
-  margin-top: 160px;
-}
-
 .hero .card {
   border: none;
   background-color: var(--hovercard);
