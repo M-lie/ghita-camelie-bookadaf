@@ -143,7 +143,6 @@ iframe {
 
 #section-testimonials .card:hover {
   background-color: var(--hovercard);
-  border: none;
   color: var(--text);
 }
 
@@ -164,6 +163,15 @@ iframe {
 
 #accordion {
   border-color: var(--basecolor);
+}
+
+.accordion-button {
+  border: 1px solid var(--background);
+}
+
+.accordion-button:hover {
+  border: 1px solid var(--basecolor);
+  box-shadow: none;
 }
 
 .accordion-button.collapsed::after {
@@ -188,9 +196,28 @@ iframe {
   background-color: rgba(250, 250, 250, 70%);
 }
 
-.bi-envelope-at {
-  margin-top: -80px;
-  margin-left: 8px;
+.bouton-abonnement .btn-primary:hover {
+  background-color: var(--hover);
+  border-color: var(--hover);
+}
+
+#input-container {
+  position: relative;
+}
+
+#input-container > svg {
+  position: absolute;
+  top: 3px;
+  left: 8px;
+}
+
+#input-container > input {
+  padding-left: 45px;
+}
+
+.modal-footer .btn-primary:hover {
+  background-color: var(--hover);
+  border-color: var(--hover);
 }
 
 .modal-title {
@@ -247,7 +274,3 @@ iframe {
   background-color: var(--background);
 }
 
-.accordion-button:hover {
-  background-color: var(--hovercard);
-  color: var(--text);
-}

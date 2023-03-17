@@ -24,9 +24,19 @@ body {
   border-radius: 50%;
 }
 
-.input-group-text {
-  height: 42px;
-  border-radius: 6px 0 0 6px;
+#input-container {
+  position: relative;
+  margin-top: 55px;
+}
+
+#input-container > .bi-search {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+}
+
+#input-container > input {
+  padding-left: 40px;
 }
 
 footer {
