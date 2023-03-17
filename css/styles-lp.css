@@ -247,4 +247,7 @@ iframe {
   background-color: var(--background);
 }
 
-
+.accordion-button:hover {
+  background-color: var(--hovercard);
+  color: var(--text);
+}
